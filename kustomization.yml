@@ -1,6 +1,6 @@
 generators:
   - policyGenerator.yaml
 commonLabels:
-  env: prod
+  userx: cstark
 commonAnnotations:
   argocd.argoproj.io/compare-options: IgnoreExtraneous
