@@ -1,7 +1,7 @@
 apiVersion: policy.open-cluster-management.io/v1beta1
 kind: OperatorPolicy
 metadata:
-  name: install-ovirt
+  name: install-ovirt-demo
 spec:
   name: ovirt-operator
   complianceType: musthave
