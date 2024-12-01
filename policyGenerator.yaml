@@ -20,4 +20,7 @@ policies:
       - path: simplevm.yaml
   - name: hyperconverged
     manifests:
-      - path: hyperconverged.yaml       
+      - path: hyperconverged.yaml  
+  - name: operatorpolicy
+    manifests:
+      - path: operator-policy.yaml       
