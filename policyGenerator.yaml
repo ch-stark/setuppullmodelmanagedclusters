@@ -23,4 +23,4 @@ policies:
       - path: hyperconverged.yaml  
   - name: operatorpolicy
     manifests:
-      - path: operator-policy.yaml       
+      - path: install-ovirt.yaml       
