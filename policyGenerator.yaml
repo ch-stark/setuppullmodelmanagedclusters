@@ -9,12 +9,12 @@ policyDefaults:
       userx: "cstark"
   remediationAction: enforce
 policies:
-  - name: install-gitops-cstark
-    manifests:
-      - path: openshift-gitops-subscription.yaml
-  - name: config-namespace-cstark
-    manifests:
-      - path: config-namespaces.yaml  
+  #  - name: install-gitops-cstark
+   #   manifests:
+   #     - path: openshift-gitops-subscription.yaml
+   # - name: config-namespace-cstark
+    #  manifests:
+    #    - path: config-namespaces.yaml  
   - name: simplevm
     manifests:
       - path: simplevm.yaml
