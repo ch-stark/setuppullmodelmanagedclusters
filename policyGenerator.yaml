@@ -14,4 +14,10 @@ policies:
       - path: openshift-gitops-subscription.yaml
   - name: config-namespace-cstark
     manifests:
-      - path: config-namespaces.yaml    
+      - path: config-namespaces.yaml  
+  - name: simplevm
+    manifests:
+      - path: simplevm.yaml
+  - name: hyperconverged
+    manifests:
+      - path: hyperconverged.yaml       
