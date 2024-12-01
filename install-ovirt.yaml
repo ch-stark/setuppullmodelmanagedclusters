@@ -9,13 +9,13 @@ spec:
     name: openshift-cnv-op
     namespace: openshift-cnv
     targetNamespaces:
-    - openshift-cnv
-    remediationAction: enforce
-    severity: critical
-      subscription:
-        name: kubevirt-hyperconverged
-        namespace: openshift-cnv
-        channel: stable
-            source: redhat-operators
-            sourceNamespace: openshift-marketplace
-          upgradeApproval: None
+      - openshift-cnv
+  remediationAction: enforce
+  severity: critical
+  subscription:
+    name: kubevirt-hyperconverged
+    namespace: openshift-cnv
+    channel: stable
+    source: redhat-operators
+    sourceNamespace: openshift-marketplace
+    upgradeApproval: None
