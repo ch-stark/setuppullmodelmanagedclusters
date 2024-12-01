@@ -18,4 +18,4 @@ spec:
     channel: stable
     source: redhat-operators
     sourceNamespace: openshift-marketplace
-    upgradeApproval: None
+  upgradeApproval: None
