@@ -17,7 +17,7 @@ policies:
     #    - path: config-namespaces.yaml  
   - name: simplevm
     manifests:
-      - path: simplevm.yaml
+      - path: smallvm.yaml
   - name: hyperconverged
     manifests:
       - path: hyperconverged.yaml  
